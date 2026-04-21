@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Georgia&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "Helvetica Neue", Arial, sans-serif;
+  --font-serif: "Georgia", serif;
+
+  --color-natural-bg: #FDFCF8;
+  --color-natural-text: #3D3935;
+  --color-natural-accent: #F4F1EA;
+  --color-natural-border: #D1CDC2;
+  --color-natural-divider: #E5E1D8;
+  
+  --color-prob-red: #E66A5C;
+  --color-prob-blue: #5C94E6;
+  --color-prob-neutral: #A09B93;
+}
+
+@layer base {
+  body {
+    @apply bg-natural-bg text-natural-text;
+  }
+}
